@@ -19,6 +19,7 @@ Route::get('/tasks', 'TaskController@index');
 Route::post('/tasks', 'TaskController@store');
 Route::patch('/tasks/{task}', 'TaskController@update');
 Route::delete('/tasks/{task}', 'TaskController@destroy');
+Route::patch('/tasks/{task}/toggle', 'TaskController@toggle');
 
 Auth::routes();
 

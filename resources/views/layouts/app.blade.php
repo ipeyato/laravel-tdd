@@ -18,6 +18,16 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <style>
+        .task-done {
+            background-color: #dff0d8;
+            text-decoration: line-through;
+            color: #3c763d;
+        }
+        .btn.no-padding {
+            padding: 0;
+        }
+    </style>
 </head>
 <body>
     <div id="app">
